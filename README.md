@@ -7,7 +7,7 @@ Follow steps 1 through 3 and ONLY steps 1 through 3 here: https://github.com/lju
 To run:
 
 ```
-docker run -d --net="host" --name="plexWatch" -v /path/to/plexWatch:/plexWatch -v /path/to/plex/logs:/logs -v /etc/localtime:/etc/localtime:ro -p 8080:8080 needo/plexwatch
+docker run -d --net="host" --name="plexWatch" -v /path/to/plexWatch:/plexWatch -v /path/to/plex/logs:/logs -v /etc/localtime:/etc/localtime:ro -p 8082:8082 needo/plexwatch
 ```
 
 Edge
@@ -15,12 +15,12 @@ Edge
 If you would like to run the latest updates from the master branch run:
 
 ```
-docker run -d --net="host" --name="plexWatch" -v /path/to/plexWatch:/plexWatch -v /path/to/plex/logs:/logs -v /etc/localtime:/etc/localtime:ro -e EDGE=1 -p 8080:8080 needo/plexwatch
+docker run -d --net="host" --name="plexWatch" -v /path/to/plexWatch:/plexWatch -v /path/to/plex/logs:/logs -v /etc/localtime:/etc/localtime:ro -e EDGE=1 -p 8082:8082 needo/plexwatch
 ```
 
 To access plexWatchWeb visit:
 
-http://server:8080/plexWatch/
+http://server:8082/plexWatch/
 
 Troubleshooting:
 ----------

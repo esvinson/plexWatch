@@ -51,7 +51,7 @@ RUN echo /var/log/apache2 > /etc/container_environment/APACHE_LOG_DIR
 RUN echo /var/lock/apache2 > /etc/container_environment/APACHE_LOCK_DIR
 RUN echo /var/run/apache2.pid > /etc/container_environment/APACHE_PID_FILE
 
-EXPOSE 8080
+EXPOSE 8082
 
 # The plexWatch directory. Where the binary, config, and database is
 VOLUME /plexWatch
