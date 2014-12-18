@@ -40,7 +40,7 @@ Where:
       - example:  "/mnt/cache/appdata/Plex/Library/Application Support/Plex Media Server/Logs/":"/logs":ro
 
 
-* Try it out: http://server:8080/plexWatch/
+* Try it out: http://server:8082/plexWatch/
 
 If all goes well, plexWatchWeb will load and show you the movie that is currently playing in Plex.
 
