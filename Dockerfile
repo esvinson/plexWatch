@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.11
+FROM phusion/baseimage:0.9.15
 MAINTAINER esvinson <esvinson@gmail.com>
 ENV DEBIAN_FRONTEND noninteractive
 
